@@ -23,7 +23,7 @@ public class HelloWorldExample extends HttpServlet {
          out.println("<body>");
          out.println("<h1>" + properties.get("saludo") + " " + properties.get("nombre") + "</h1>");
 
-         out.println("<op>" + properties.get("mensaje") + "</p>");
+         out.println("<p>" + properties.get("mensaje") + "</p>");
          out.println("</body></html>");
       } finally {
          out.close();

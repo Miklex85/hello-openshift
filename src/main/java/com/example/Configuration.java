@@ -20,8 +20,8 @@ public class Configuration {
         } catch (Exception e) {
             // Return default values
             map.put("nombre","OpenShift");
-            map.put("saludo","¡hola!");
-            map.put("mensaje","¡Esto es HelloWorld!");
+            map.put("saludo","hola!");
+            map.put("mensaje","Esto es HelloWorld!");
         }
         return map;
     }

@@ -6,7 +6,7 @@
   <display-name>Sample Java Web Application</display-name>
 <servlet>
     <servlet-name>TomcatHelloWorldExample</servlet-name>
-    <servlet-class>mypkg.HelloWorldExample</servlet-class>
+    <servlet-class>com.example.HelloWorldExample</servlet-class>
 </servlet>
 <servlet-mapping>
     <servlet-name>TomcatHelloWorldExample</servlet-name>

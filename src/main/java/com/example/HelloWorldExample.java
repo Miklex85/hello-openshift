@@ -28,7 +28,7 @@ public class HelloWorldExample extends HttpServlet {
 
          Map<String, String> env = System.getenv();
          for (String envName : env.keySet()) {
-            out.println(envName + " = " + env.get(envName));
+            out.println("<p>" + envName + " = " + env.get(envName) + "</p>");
          }
          out.println("</body></html>");
       } finally {

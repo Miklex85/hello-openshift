@@ -25,6 +25,11 @@ public class HelloWorldExample extends HttpServlet {
 
          out.println("<p>" + properties.get("mensaje") + "</p>");
          out.println("<p> Ejecutando desde el POD: " + System.getenv().get("HOSTNAME") + "</p>");
+
+         Map<String, String> env = System.getenv();
+         for (String envName : env.keySet()) {
+            out.println(envName + " = " + env.get(envName));
+         }
          out.println("</body></html>");
       } finally {
          out.close();
